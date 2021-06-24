@@ -12,6 +12,7 @@ div.onmousedown = function (e) {
     flag = true;
 }
 document.body.onmousemove = function (res) {
+    console.log(res);
     if (flag === true) {
         console.log(res.clientX);
         console.log(res.clientY);
